@@ -13,7 +13,7 @@ const constants = {
     PLAYER_SIZE: 31,
     PLAYER_SPEED: 5,
     REFRESH_RATE: 15,
-    AMOUNT_OF_FOOD: 20,
+    // AMOUNT_OF_FOOD: 1,
     FOOD_SIZE: 25
 }
 
