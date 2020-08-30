@@ -3,10 +3,11 @@
     justify-content: center;
     margin: 0;
     padding: 0;
-    width: 20%;
+    width: 40%;
     height: 3vh;
     background-color: #523;
     border-radius: 1.5vh;
+    box-shadow: 5px 10px 10px #999;
 }
 
 .healthBarForeground {
