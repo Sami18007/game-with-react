@@ -3,6 +3,20 @@
   --default-light-color: #eee;
   --secondary-dark-color: #248;
   --secondary-light-color: #57b;
+  --other-color-green: #284;
+  --other-color-yellow: #ed3;
+}
+
+.textWhite {
+  color: var(--default-light-color);
+}
+
+.textGreen {
+  color: var(--other-color-green);
+}
+
+.textYellow {
+  color: var(--other-color-yellow);
 }
 
 #app {
@@ -16,6 +30,7 @@
 
 #topBar {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
   margin: 0;
@@ -26,7 +41,6 @@
 
 .title {
   margin: 0;
-  color: var(--default-light-color);
 }
 
 #gameArea {
